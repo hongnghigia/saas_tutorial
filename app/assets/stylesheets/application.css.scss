@@ -21,8 +21,8 @@ h1, h2, h3 {
     font-family: 'Griffy', cursive;
 }
 
-body, .navbar {
-    // Provided by @_ighosh
+.navbar, .home-callout {
+    // Provided by @_ighosh at uigradients.com
     background: #c0c0aa; /* fallback for old browsers */
     background: -webkit-linear-gradient(to left, #c0c0aa , #1ce); /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to left, #c0c0aa , #1ce); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
@@ -30,4 +30,10 @@ body, .navbar {
 
 .navbar {
     border: none;
+}
+
+.home-callout {
+    margin-top: -20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }

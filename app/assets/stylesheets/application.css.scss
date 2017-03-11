@@ -17,10 +17,12 @@
 @import 'bootstrap-sprockets';
 @import 'bootstrap';
 
+// Typography styles 
 h1, h2, h3 {
     font-family: 'Griffy', cursive;
 }
 
+// Background gradient
 .navbar, .home-callout {
     // Provided by @_ighosh at uigradients.com
     background: #c0c0aa; /* fallback for old browsers */
@@ -32,24 +34,16 @@ h1, h2, h3 {
     border: none;
 }
 
-.navbar-default .navbar-brand {
-    color: black;
-}
-
+.navbar-default .navbar-brand,
 .navbar-default .navbar-nav > li > a {
     color: black;
+    &:hover {
+        color: black;
+        opacity: 0.75;
+    }
 }
 
-.navbar-default .navbar-brand:hover {
-    color: black;
-    opacity: 0.75;
-}
-
-.navbar-default .navbar-nav > li > a:hover {
-    color: black;
-    opacity: 0.75;
-}
-
+// Homepage styles
 .home-callout {
     margin-top: -20px;
     padding-top: 50px;

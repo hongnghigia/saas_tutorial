@@ -23,16 +23,16 @@
           <!--HTML ways as opposed to Rails way-->
           <!--<a href="/" class="navbar-brand"><i class="fa fa-cutlery"></i> Milkteva</a>-->
           
-          <%= link_to "/", class: "navbar-brand" do %>
+          <%= link_to root_path, class: "navbar-brand" do %>
             <i class="fa fa-cutlery"></i>
             Milkteva
           <% end %>
         </div>
         <div class="collapse navbar-collapse" id="main-nav-collapse">
           <ul class="nav navbar-nav">
-            <li><%= link_to "About", "/about" %></li>
+            <li><%= link_to "About", about_path %></li>
             
-            <li><%= link_to "Contact", "/contact" %></li>
+            <li><%= link_to "Contact", contact_path %></li>
             <!--HTML way as opposed to Rails way-->
             <!--<li><a href="/about">About</a></li>-->
             
